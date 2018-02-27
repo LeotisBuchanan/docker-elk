@@ -1,0 +1,10 @@
+GLOBALEVENTID	EventTimeDate	MentionTimeDate	MentionType	MentionSourceName	MentionIdentifier	SentenceID	Actor1CharOffset	Actor2CharOffset	ActionCharOffset	InRawText	Confidence	MentionDocLen	MentionDocTone	MentionDocTranslationInfo	Extras	Add New Fields
+410412347	20150218230000	20150218230000	1	dailymaverick.co.za	http://www.dailymaverick.co.za/article/2015-02-19-sona2015-jamming-state-security-agency-steps-forward-blames-low-ranking-operator/	19	-1	4594	4634	1	50	6665	-4.4776119402985		
+410412348	20150218230000	20150218230000	1	indiatimes.com	http://timesofindia.indiatimes.com/city/bengaluru/Feline-beauties-to-strut-their-stuff/articleshow/46292006.cms	2	-1	300	344	1	50	2541	2.07852193995381		
+410412349	20150218230000	20150218230000	1	voxy.co.nz	http://www.voxy.co.nz/entertainment/coast-new-zealand-production-tv-one/5/214255	4	-1	1297	1232	0	10	2576	7.51708428246014		
+410412350	20150218230000	20150218230000	1	voxy.co.nz	http://www.voxy.co.nz/entertainment/coast-new-zealand-production-tv-one/5/214255	4	-1	1298	1233	1	20	2576	7.51708428246014		
+410412351	20150218230000	20150218230000	1	eastidahonews.com	http://www.eastidahonews.com/2015/02/neil-patrick-harris-on-why-hes-haunted-by-ellen-degeneres-oscars-selfie/	1	-1	103	122	1	100	1432	0		
+410368256	20150218193000	20150218230000	1	businessinsider.com.au	http://www.businessinsider.com.au/australian-government-considers-dumping-national-census-to-save-money-2015-2/	4	1325	-1	1356	0	20	1628	0		
+410290898	20150218141500	20150218230000	1	blayneychronicle.com.au	http://www.blayneychronicle.com.au/story/2893340/organ-donation-an-easy-choice-for-ballarat-mum/?cs=2452	12	2675	-1	2705	1	50	3345	0.53003533568904		
+410290898	20150218141500	20150218230000	1	murrayvalleystandard.com.au	http://www.murrayvalleystandard.com.au/story/2893340/organ-donation-an-easy-choice-for-ballarat-mum/?cs=2452	12	2675	-1	2705	1	50	3345	0.53003533568904		
+410290898	20150218141500	20150218230000	1	stawelltimes.com.au	http://www.stawelltimes.com.au/story/2893340/organ-donation-an-easy-choice-for-ballarat-mum/?cs=2452	12	2675	-1	2705	1	50	3345	0.53003533568904		

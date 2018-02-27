@@ -3,10 +3,12 @@ version: '2'
 services:
 
   elasticsearch:
+    env_file: variables.env
     build:
       context: elasticsearch/
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      - ${DATA_DIR}:/usr/share/elasticsearch/data
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -21,6 +23,7 @@ services:
     volumes:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+      - /home/leo/gdelt/data:/gdelt/data
     ports:
       - "5000:5000"
     environment:
