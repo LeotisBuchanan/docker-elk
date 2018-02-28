@@ -8,7 +8,7 @@ services:
       context: elasticsearch/
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
-      - ${DATA_DIR}:/usr/share/elasticsearch/data
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -21,9 +21,10 @@ services:
     build:
       context: logstash/
     volumes:
-      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+      - ./logstash/config:/usr/share/logstash/config
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
-      - /home/leo/gdelt/data:/gdelt/data
+      - ./logstash/data:/usr/share/logstash/data
+      - ./logstash/gdelt_data:/usr/share/logstash/gdelt_data
     ports:
       - "5000:5000"
     environment:
